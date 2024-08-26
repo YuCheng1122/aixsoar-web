@@ -2,9 +2,8 @@ export const config = {
   matcher: ["/((?!api|static|.*\\..*|_next).*)"],
 };
 
-export default function middleware(request) {
-  // You can add custom middleware logic here if needed in the future
-  return Promise.resolve();
+export default function middleware() {
+  return null;
 }
 
 // import NextAuth from "next-auth";
